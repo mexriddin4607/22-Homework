@@ -1,0 +1,14 @@
+@import"./_header.scss";
+@import"./main";
+@import"./footer.scss";
+
+.continer{
+    max-width: 1240px;
+    margin: auto;
+}
+@media(max-width: 990px){
+    .continer{
+        max-width: 600px;
+        margin: auto;
+    }
+}
