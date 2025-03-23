@@ -42,3 +42,10 @@
         color: white;
     }
 }
+@media(max-width:768px){
+    .footer_1{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}

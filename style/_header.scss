@@ -47,16 +47,12 @@ ul{
     }
 }
 
-@media (max-width: 600px) {
-    .header .box {
-        .box p{
-            display: none;
-        }
-        .nav li {
-            display: none;
-        }
+@media (max-width: 768px) {
+    .header{
+     display: flex;
+    flex-direction: column;
     }
-    .header .box  {
-        display: block;
+    .box .nav .nav{
+        flex-direction: column;
     }
 }

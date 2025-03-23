@@ -1,0 +1,17 @@
+.continer{
+    max-width: 1240px;
+    margin: auto;
+}
+@media(max-width: 990px){
+    .continer{
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
+@media(max-width: 680px){
+    .continer{
+        max-width: 400px;
+        margin: auto;
+    }
+}
